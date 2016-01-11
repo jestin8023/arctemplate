@@ -1,2 +1,2 @@
-# arctemplate
-arctemplate
+# artTemplate
+javascript 模板引擎artTemplate
