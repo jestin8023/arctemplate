@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/**
+ * @author wengtianmeng
+ * @designer jiwenwen
+ */
+
+/* CSS global */
+html,
+body {
+	min-width: 1102px;
+}
+a img {
+	vertical-align: top;
+}
+.fl { 
+	float: left;
+}
+.fr { 
+	float: right;
+}
+.cf { 
+	zoom: 1;
+}
+.cf:before,
+.cf:after { 
+	content: ""; 
+	display: table;
+}
+.cf:after { 
+	clear: both;
+}
+.s-inner {
+	position: relative;
+	width: 1102px;
+	margin: 0 auto;
+}
+
+/* wrap */
+.wrap {
+	min-width: 1102px;
+	font: 14px/26px "宋体";
+	color: #551538;
+	text-align: center;
+}
+
+/* header */
+.header {
+	height: 638px;
+	background: #ffdf3f url(http://mat1.gtimg.com/book/2015images/qcl/bg_header.png) no-repeat center 70px;
+}
+
+/* content */
+.content {
+	background: url(http://mat1.gtimg.com/book/2015images/qcl/bg_bodybottom.jpg) no-repeat center top;
+}
+.book-list {
+	padding: 174px 0 0 0;
+}
+.books-box {
+}
+.book {
+	position: relative;
+	width: 535px;
+	height: 259px;
+	padding-bottom: 176px;
+}
+.book .book-detail {
+	width: 330px;
+	text-align: left;
+}
+.book .book-detail h3,
+.book .book-detail dl dt,
+.book .book-detail dl dd strong {
+	color: #000;
+	font-family: "microsoft yahei";
+}
+.book .book-detail dl strong {
+	font-weight: bold;
+}
+.book .book-detail h3 {
+	font-size: 22px;
+	line-height: 56px;
+}
+.book .read {
+	position: absolute;
+	left: 213px;
+	bottom: 107px;
+	width: 142px;
+	height: 50px;
+	background: url(http://mat1.gtimg.com/book/2015images/qcl/btn_read.png) no-repeat;
+}
+
+.footer {
+	background: #f39dcc;
+}
+.erweimas {
+	width: 1014px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 88px;
+	margin-bottom: 50px;
+}
+.erweimas p {
+	padding-top: 40px;
+	font: 14px/1.5 "宋体";
+}
+
+
+
+
+
+
+
